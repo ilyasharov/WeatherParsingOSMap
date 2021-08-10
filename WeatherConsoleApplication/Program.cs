@@ -8,7 +8,7 @@ namespace WeatherConsoleApplication
     class Program {
 
         public const string BEGIN_OF_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
-        public const string END_OF_URL = "&units=metric&appid=eed662e679edbffbea195ad9f83281c4";
+        public const string END_OF_URL = "&units=metric&appid={api}";
 
         static void Main() {
 
